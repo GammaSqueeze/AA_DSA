@@ -10,14 +10,24 @@
 //
 // Examples:
 //
-// lucasNumber(0)   // => 2
-// lucasNumber(1)   // => 1
-// lucasNumber(2)   // => 3
-// lucasNumber(3)   // => 4
-// lucasNumber(5)   // => 11
-// lucasNumber(9)   // => 76
+lucasNumber(0)   // => 2
+lucasNumber(1)   // => 1
+lucasNumber(2)   // => 3
+lucasNumber(3)   // => 4
+lucasNumber(5)   // => 11
+lucasNumber(9)   // => 76
 function lucasNumber(n) {
 
+    if (n === 0) {  // Base case 1
+        return 2;
+    }
+
+    if (n === 1) { // Base case 2
+        return 1;
+    }
+
+    return lucasNumber(n - 1) + lucasNumber(n - 2);
+    // same solution as fibonacci
 }
 
 
@@ -33,7 +43,11 @@ function lucasNumber(n) {
 // sumArray([5, 2])         // => 7
 // sumArray([4, 10, -1, 2]) // => 15
 function sumArray(array) {
+    // if (array.length === 1) {
+    //     return array[0]
+    // }
 
+    // return array[0] + sumArray(array[1..-1])
 }
 
 

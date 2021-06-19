@@ -1,4 +1,4 @@
-This directory contains all 20 projects and their solutions acquired from the App Academy's Full Stack Online Data Structures and Algorithms module.
+This directory contains all 21 projects and their solutions acquired from the App Academy's Full Stack Online Data Structures and Algorithms module. Javascript.
 
 For each project, use the following instructions
 
